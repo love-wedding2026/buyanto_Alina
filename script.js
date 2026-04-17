@@ -73,7 +73,7 @@ if (form7) {
     data.append("Присутствие", attendance || "");
     data.append("_captcha", "false");
 
-    fetch("https://formsubmit.co/ajax/plyasheva4856@mail.ru", {
+    fetch("https://formsubmit.co/ajax/alinanimaeva77@icloud.com", {
       method: "POST",
       body: data
     })
