@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'aristotelica-pro';
+    src: url('font/AristotelicaText-ExtraLight.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aristotelica';
+    src: url('font/aristotelica-pro-cnd-text-extralight.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html, body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+/* Блок 1 */
+.block1{
+  width:100%;
+  height:100vh; /* на весь экран */
+  overflow:hidden;
+}
+
+.block1-img{
+  width:100%;
+  height:100%;
+  object-fit:cover; /* заполняет экран */
+  display:block;
+}
+
+/* Блок 2 */
+.block2{
+  width:100%;
+}
+
+.block2-img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Блок 3 */
+.block3{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+/* контейнер */
+.timer{
+  display:flex;
+  gap:40px;
+}
+
+/* блок времени */
+.time-item{
+  text-align:center;
+}
+
+/* цифры */
+.time-item span{
+  display:block;
+  font-family: 'aristotelica';
+  color: #365528;
+  font-size:37pt;
+  font-weight:600;
+}
+
+/* подписи */
+.time-item p{
+  font-family: 'aristotelica-pro';
+  color: #5B432D;
+  font-size:15pt;
+  margin-top:4px;
+}
+
+/* Блок 4 */
+.block4{
+  width:100%;
+}
+
+.block4-img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Блок 5 */
+.block5{
+  width:100%;
+}
+
+/* обертка */
+.block5-wrap{
+  position:relative;
+  width:100%;
+}
+
+/* фон */
+.block5-img{
+  width:100%;
+  display:block;
+}
+
+/* КНОПКА 1 */
+.block5-btn1{
+  position:absolute;
+
+  /* ДВИГАЕШЬ ТУТ */
+  top:70%;
+  left:23%;
+
+  transform:translate(-50%, -50%);
+}
+
+/* КНОПКА 2 */
+.block5-btn2{
+  position:absolute;
+
+  /* ДВИГАЕШЬ ТУТ */
+  top:70%;
+  left:76%;
+
+  transform:translate(-50%, -50%);
+}
+
+/* картинки кнопок */
+.block5-btn1 img,
+.block5-btn2 img{
+  width:140px; /* регулируешь размер */
+  max-width:35vw;
+  height:auto;
+  display:block;
+}
+
+/* Блок 6 */
+.block6{
+  width:100%;
+}
+
+.block6-img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Блок 7 */
+.block7{
+  width:100%;
+}
+
+/* фото */
+.block7-img{
+  width:100%;
+  display:block;
+}
+
+/* кнопка открыть */
+.block7-open-btn{
+  width:100%;
+  border:none;
+  background:none;
+  padding:0;
+}
+
+.block7-open-btn img{
+  width:200px;
+  max-width:70vw;
+  display:block;
+  margin:20px auto;
+}
+
+/* анкета скрыта */
+.block7-form-wrap{
+  display:none;
+  padding:20px;
+}
+
+/* показать */
+.block7-form-wrap.show{
+  display:block;
+}
+
+/* форма */
+.block7-form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+/* поля */
+.block7-input{
+  border:none;
+  border-bottom:1px solid #000;
+  padding:10px 5px;
+  font-family: 'aristotelica-pro';
+  font-size:14px;
+  outline:none;
+}
+
+/* текст */
+.block7-title{
+  font-family: 'aristotelica-pro';
+  color: #5B432D;
+  margin-top:10px;
+  font-size:16px;
+}
+
+/* варианты */
+.block7-option{
+  display:block;
+  font-family: 'aristotelica-pro';
+  color: #5B432D;
+  font-size:14px;
+  margin-bottom:5px;
+}
+
+/* кнопка */
+.block7-btn{
+  border:none;
+  background:none;
+  margin-top:10px;
+}
+
+.block7-btn img{
+  width:160px;
+  max-width:70vw;
+  display:block;
+  margin:0 auto;
+}

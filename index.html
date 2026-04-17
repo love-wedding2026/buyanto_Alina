@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приглашение</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Блок 1 -->
+  <section class="block1">
+    <img src="img/1.png" alt="" class="block1-img">
+  </section>
+
+    <!-- Блок 2 -->
+  <section class="block2">
+    <img src="img/2.png" alt="" class="block2-img">
+  </section>
+
+  <!-- Блок 3 -->
+<section class="block3">
+
+  <div class="timer">
+
+    <div class="time-item">
+      <span id="days">00</span>
+      <p>дней</p>
+    </div>
+
+    <div class="time-item">
+      <span id="hours">00</span>
+      <p>часов</p>
+    </div>
+
+    <div class="time-item">
+      <span id="minutes">00</span>
+      <p>минут</p>
+    </div>
+
+    <div class="time-item">
+      <span id="seconds">00</span>
+      <p>секунд</p>
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- Блок 4 -->
+  <section class="block4">
+    <img src="img/3.png" alt="" class="block4-img">
+  </section>
+
+  <!-- Блок 5 -->
+<section class="block5">
+
+  <div class="block5-wrap">
+
+    <!-- фон фото -->
+    <img src="img/5.png" alt="" class="block5-img">
+
+    <!-- кнопка 1 -->
+    <a href="https://yandex.ru/maps/-/CPvXE8i2" target="_blank" class="block5-btn1">
+      <img src="img/6.png" alt="">
+    </a>
+
+    <!-- кнопка 2 -->
+    <a href="https://yandex.ru/maps/-/CPvXIQYz" target="_blank" class="block5-btn2">
+      <img src="img/6.png" alt="">
+    </a>
+
+  </div>
+
+</section>
+
+    <!-- Блок 6 -->
+  <section class="block6">
+    <img src="img/7.png" alt="" class="block6-img">
+  </section>
+
+  <!-- Блок 7 -->
+<section class="block7">
+
+  <div class="block7-wrap">
+
+    <!-- фото -->
+    <img src="img/8.png" alt="" class="block7-img">
+
+    <!-- кнопка открытия -->
+    <button class="block7-open-btn" id="openForm7">
+      <img src="img/9.png" alt="">
+    </button>
+
+  </div>
+
+  <!-- анкета -->
+  <div class="block7-form-wrap" id="form7Wrap">
+
+    <form class="block7-form" id="form7">
+
+      <!-- имя -->
+      <input
+        type="text"
+        name="name"
+        placeholder="Ваше имя"
+        class="block7-input"
+        required
+      >
+
+      <!-- телефон -->
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Ваш номер телефона"
+        class="block7-input"
+        required
+      >
+
+      <!-- присутствие -->
+      <div class="block7-group">
+        <p class="block7-title">Подтвердите свое присутствие</p>
+
+        <label class="block7-option">
+          <input type="radio" name="attendance" value="Да, с удовольствием приду" required>
+          Да, с удовольствием приду
+        </label>
+
+        <label class="block7-option">
+          <input type="radio" name="attendance" value="Не смогу">
+          К сожалению не смогу присутствовать
+        </label>
+      </div>
+
+      <!-- кнопка отправки -->
+      <button type="submit" class="block7-btn">
+        <img src="img/10.png" alt="">
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
